@@ -13,6 +13,9 @@ function App() {
         <main>
           <Dictionary />
         </main>
+        <footer>
+          <small>Coded by Tanaz Nejad</small>
+        </footer>
       </div>
     </div>
   );
