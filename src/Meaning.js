@@ -1,4 +1,5 @@
 import React from "react";
+import Synonyms from "./Synonyms";
 
 export default function Meaning(props) {
   if (props.meaning) {
@@ -7,15 +8,20 @@ export default function Meaning(props) {
         <h2>{props.meaning.partOfSpeech}</h2>
 
         {props.meaning.definitions.map(function (definition, index) {
-          return (
-            <div key={index}>
-              <p>
-                {definition.definition}
-                <br />
-                <em> {definition.example}</em>
-              </p>
-            </div>
-          );
+          if (index < 1) {
+            return (
+              <div key={index}>
+                <p>
+                  {definition.definition}
+                  <br />
+
+                  <Synonyms synonyms={props.meaning.synonyms} />
+                </p>
+              </div>
+            );
+          } else {
+            return null;
+          }
         })}
       </div>
     );
