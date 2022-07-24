@@ -1,4 +1,4 @@
-import logo_dictionary from "./logo_dictionary.png";
+import dictionary_logo from "./dictionary_logo.png";
 import Dictionary from "./Dictionary.js";
 import "./App.css";
 
@@ -7,11 +7,11 @@ function App() {
     <div className="App">
       <div className="container">
         <header className="App-header">
-          <img src={logo_dictionary} alt="dictionary" className="dictionary" />
-          Dictionary
+          <img src={dictionary_logo} alt="Dictionary" className="logo" />
+          <h1>Dictionary</h1>
         </header>
         <main>
-          <Dictionary />
+          <Dictionary defaultWord="Sunset" />
         </main>
         <footer>
           <small>Coded by Tanaz Nejad</small>

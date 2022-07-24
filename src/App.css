@@ -1,3 +1,16 @@
+body {
+  background-color: #f9ecec;
+  font-family: "Kanit", sans-serif;
+}
+.App h1 {
+  display: inline;
+
+  font-weight: bold;
+  font-size: 40px;
+}
+.App .logo {
+  margin-right: 20px;
+}
 .App footer {
   text-align: center;
   margin: 30px;
@@ -11,8 +24,4 @@
 .App .dictionary {
   max-width: 100px;
   margin: 0 auto;
-}
-.App .DictionaryForm {
-  width: 200px;
-  margin: 30px auto;
 }

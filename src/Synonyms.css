@@ -1,0 +1,10 @@
+.Synonyms ul {
+  margin: 20px;
+  text-transform: capitalize;
+  color: #666;
+  list-style: none;
+  display: inline-flex;
+}
+.Synonyms li {
+  margin-right: 10px;
+}
