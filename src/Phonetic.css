@@ -4,7 +4,7 @@
 .Phonetics a {
   border: 1px solid #ddd;
   border-radius: 50px;
-  font-size: 14px;
+  font-size: 12px;
   padding: 6px 18px;
   margin-right: 10px;
   color: #666;
@@ -19,7 +19,7 @@
 }
 
 .Phonetics h2 {
-  font-size: 18px;
+  font-size: 16px;
   display: inline;
   color: #666;
 }

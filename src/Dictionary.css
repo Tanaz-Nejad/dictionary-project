@@ -5,6 +5,11 @@
   margin-top: 10px;
   padding: 20px 20px 10px 20px;
 }
+.Dictionary label {
+  font-size: 18px;
+  color: #000;
+  margin-bottom: 10px;
+}
 .Dictionary input {
   border: 1px solid #ddd;
   color: #666;

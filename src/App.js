@@ -11,10 +11,17 @@ function App() {
           <h1>Dictionary</h1>
         </header>
         <main>
-          <Dictionary defaultWord="Sunset" />
+          <Dictionary defaultWord="Ocean" />
         </main>
         <footer>
-          <small>Coded by Tanaz Nejad</small>
+          This project was coded by Tanaz Nejad and is{" "}
+          <a href="https://github.com/Tanaz-Nejad/dictionary-project.git">
+            open-sourced on Github
+          </a>{" "}
+          and{" "}
+          <a href="https://lustrous-cocada-f32964.netlify.app">
+            hosted on Netlify
+          </a>
         </footer>
       </div>
     </div>
