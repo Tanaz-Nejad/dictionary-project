@@ -11,7 +11,7 @@ function App() {
           <h1>Dictionary</h1>
         </header>
         <main>
-          <Dictionary defaultWord="Ocean" />
+          <Dictionary defaultWord="Car" />
         </main>
         <footer>
           This project was coded by Tanaz Nejad and is{" "}

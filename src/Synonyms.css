@@ -1,9 +1,13 @@
+.Synonyms h2 {
+  margin-top: 20px;
+}
 .Synonyms ul {
-  margin: 20px;
   text-transform: capitalize;
   color: #666;
   list-style: none;
   display: inline-flex;
+  padding: 0;
+  font-size: 11px;
 }
 .Synonyms li {
   margin-right: 10px;
